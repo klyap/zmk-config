@@ -11,7 +11,7 @@ This repository builds ZMK firmware for a Sweet16 4x4 macropad using a nice!nano
 
 ## Pin Assumption
 
-The matrix uses the Pro Micro silk labels `D7`, `E6`, `B4`, `B5`, `B6`, `B2`, `B3`, plus inferred `B1` as the missing eighth matrix pin. If one full row or column does not respond after flashing, confirm the eighth pin on the PCB photo and update the last `col-gpios` entry in `boards/shields/sweet16/sweet16.overlay`.
+The matrix uses the Sweet16 v1-style Pro Micro mapping: rows on `F4`, `F5`, `F6`, `F7` and columns on `D7`, `E6`, `B4`, `B5`. If keys respond but are in the wrong positions, update the matrix transform in `boards/shields/sweet16/sweet16.overlay`.
 
 ## Flashing
 
