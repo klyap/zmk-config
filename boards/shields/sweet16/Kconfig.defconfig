@@ -1,6 +1,6 @@
 if SHIELD_SWEET16
 
 config ZMK_KEYBOARD_NAME
-    default "Sweet16"
+    default "Sweet16-v2"
 
 endif
