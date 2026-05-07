@@ -11,7 +11,7 @@ This repository builds ZMK firmware for a Sweet16 4x4 macropad using a nice!nano
 
 ## Pin Assumption
 
-The matrix uses the Sweet16 v1-style Pro Micro mapping: rows on `F4`, `F5`, `F6`, `F7` and columns on `D7`, `E6`, `B4`, `B5`. If keys respond but are in the wrong positions, update the matrix transform in `boards/shields/sweet16/sweet16.overlay`.
+The matrix uses the official Sweet16 V1 QMK mapping converted for nice!nano GPIOs: rows on `F4`, `F5`, `F6`, `F7` and columns on `D1`, `D0`, `D4`, `C6`, with `COL2ROW` diode direction. If keys respond but are in the wrong positions, update the matrix transform in `boards/shields/sweet16/sweet16.overlay`.
 
 ## Flashing
 
